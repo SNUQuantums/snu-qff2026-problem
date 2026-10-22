@@ -1,0 +1,7 @@
+# 채점기를 돌리는 데 필요한 것 전부입니다.
+# xtim 은 PyPI 에 없어서 이 레포의 Release 에서 받습니다(problem.md 5절).
+--find-links https://github.com/SNUQuantums/snu-qff2026-problem/releases/expanded_assets/xtim-3.1.3-qff2
+xtim==3.1.3+qff2
+qiskit==2.5.2
+stim==1.16.0      # tprep.exact (the correctness check)
+matplotlib>=3.8   # tprep.draw
